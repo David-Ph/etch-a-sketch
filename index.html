@@ -5,11 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch a Sketch</title>
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="main-container">
+        <div class="text-container">
+            <h1>Etch a Sketch</h1>
+            <h2>Go ham!</h2>
+        </div>
+        <div class="control-container">
+            <div class="color-picker">
+                <input type="color" name="" id="picked-color">
+            </div>
+            <div class="rainbow-button">
+                <button id="rainbow-btn">Rainbow</button>
+            </div>
+            <div class="grayscale-button">
+                <button id="grayscale-btn">Grayscale</button>
+            </div>
+            <div class="size-picker">
+                <button id="size-btn">Pick Size</button>
+            </div>
+            <div class="clear">
+                <button id="clear-btn">Clear</button>
+            </div>
+        </div>
+        <div class="grid-container">
+            <div class="div"></div>
+            <div class="div"></div>
+            <div class="div"></div>
+            <div class="div"></div>
+        </div>
+    </div>
 
     <script src="js/main.js"></script>
 </body>
